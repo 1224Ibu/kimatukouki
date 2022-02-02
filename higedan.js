@@ -1,2 +1,2 @@
-function imgchange5(){document.getElementById('logo1').src='./image/平井大2.jpg';}
-function bthrees(){document.getElementById('logo1').src='./image/平井大.jpg';}
+function imgchange5(){document.getElementById('logo5').src='./image/髭男2.jpg';}
+function bthrees(){document.getElementById('logo5').src='./image/髭男.jpg';}

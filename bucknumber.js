@@ -1,2 +1,2 @@
-function imgchange6(){document.getElementById('logo1').src='./image/平井大2.jpg';}
-function bthrees(){document.getElementById('logo1').src='./image/平井大.jpg';}
+function imgchange6(){document.getElementById('logo6').src='./image/バックナンバー2.jpg';}
+function bthrees(){document.getElementById('logo6').src='./image/バクナンバー.jpg';}
