@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>好きなアーティスト</title>
 <link rel="stylesheet" href="style.css">
+<script src="hirai.js"></script>
 </head>
 <br>
 <h1>好きなアーティスト</h1>
@@ -54,7 +55,8 @@
   <p><label>その他：<a href="a.html#def">クリック</a></label></p>
   <table>
     <tr>
-    <td><img src="./image/平井大.jpg" alt="平井大" width="450"></td>
+    <input type="button" value="3秒後に変更"onclick="imgchange1();setTimeout('bthrees()',3000)">
+    <td><img src="./image/平井大.jpg" id="logo1" alt="平井大" class="imagechange width="450"></td>
     <td><img src="./image/BTS.jpg" alt="BTS" width="500"></td>
     <td><img src="./image/あいみょん.jpg" alt="あいみょん" width="450"></td>
     <td><img src="./image/YOASOBI.jpg" alt="YOASOBI" width="400"></td>
@@ -68,6 +70,7 @@
       <td>YOASOBI</td>
       <td>Official髭男dism</td>
       <td>backnumber</td>
+      <br>
     </tr>
   </table>
   </body>
